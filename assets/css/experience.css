@@ -1,0 +1,83 @@
+
+#experience{
+    padding: 96px 80px;
+    background-color: #111827;
+}
+
+.experience-head{
+    margin-bottom: 48px;
+}
+.experience-head h4{
+    padding: 4px 20px;
+    background-color: #374151;
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
+.experience-head p{
+    color: #D1D5DB;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.exprience-container{
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: auto;
+    max-width: 76%;
+}
+
+.experience-upwork{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    background-color: #1F2937;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.experience-upwork-text h3{
+    font-size: 20px;
+    line-height: 28px; 
+    color: #F9FAFB;
+}
+
+.experience-upwork-text ul{
+    margin-left: 16px;
+}
+.experience-upwork-text li{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1D5DB;
+}
+
+.experience-duration-upwork{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1D5DB;
+    width: 25%;
+    text-align: end;
+}
+
+.experience-upwork-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+}
+
+.logo-upwork {
+    width: 25%;
+}
+
+.logo-upwork img{
+    width: 102px;
+    height: 28px;   
+}

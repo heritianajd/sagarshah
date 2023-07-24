@@ -2,13 +2,14 @@
 
 #skills {
     background-color: #030712;
+     padding: 96px 80px;
 }
 
 .skills-container{
-    padding: 96px 80px;
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding: 0 32px;
 }
 
 .skills-technologie{
@@ -53,4 +54,14 @@
 
 .skills-grid-technologie{
     text-align: center;
+}
+
+.skills-grid-technologie img{
+    transform: scale(0.9);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.skills-grid-technologie img:hover{
+    transform: scale(1);
 }

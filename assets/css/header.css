@@ -24,6 +24,7 @@ header {
     background: var(--gray-dark-default-50, rgba(3, 7, 18, 0.50));
     backdrop-filter: blur(24px);
     padding: 16px 80px;
+    z-index: 1;
 }
 
 header nav{
