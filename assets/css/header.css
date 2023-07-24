@@ -20,7 +20,6 @@ header {
     height: min-content;
     top: 0;
     left: 0;
-    /* background: var(--gray-dark-default, #030712); */
     background: var(--gray-dark-default-50, rgba(3, 7, 18, 0.50));
     backdrop-filter: blur(24px);
     padding: 16px 80px;
@@ -142,16 +141,27 @@ header nav{
     display: none;
 }
 
-@media (max-width:1024px){
-    header nav{
+@media (max-width:1366px){
+    header{
         padding: 16px 40px;
     }
 }
 
+@media (max-width:1250px){
+    header{
+        padding: 16px 0px;
+    }
+}
+
+@media (max-width:1024px){
+   
+}
+
 @media (max-width:768px) {
     header nav{
-        padding: 16px;
+        padding: 0 16px;
     }
+
     .toggle{
         display: block;
         position: relative;
