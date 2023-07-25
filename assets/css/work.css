@@ -113,3 +113,62 @@
 .wingie:active{
     background-color: #374151;
 }
+
+.work-row-left{
+    border-radius: 12px 0px 0px 12px;
+}
+.work-row-rigth{
+    border-radius: 0 12px 12px 0;
+}
+@media (max-width:1366px) {
+  
+}
+@media (max-width:1250px) {
+    #work {
+        padding: 96px 20px;
+    }
+}
+@media (max-width:1024px) {
+    #work {
+        padding: 96px 0px;
+    }
+    .work-photos{
+        padding: 32px;
+    }
+    .work-text{
+        padding: 32px;
+    }
+}
+@media (max-width:768px) {
+    #work{
+        padding: 64px 0px;
+    }
+
+    .work-container{
+        padding: 0 16px;
+    }
+
+    .work-head p{
+        font-size: 18px;
+    }
+    .work-head {
+        margin-bottom: 24px;
+    }
+
+    .work-row{
+        flex-direction: column;
+    }
+    .work-text{
+        width: 100%;
+    }
+    .work-photos{
+        width: 100%;
+    }
+
+    .work-row-left{
+        border-radius: 12px 12px 0 0;
+    }
+    .work-row-rigth{
+        border-radius: 0 0 12px 12px;
+    }
+}

@@ -67,3 +67,45 @@
     width: 64px;
     height: 64px;
 }
+
+@media (max-width:1366px){
+    
+}
+@media (max-width:1250px){
+    #testimonials{
+        padding: 96px 20px;
+    }
+}
+@media (max-width:1024px){
+    #testimonials{
+        padding: 96px 0px;
+    }
+
+    .testimonial-container{
+        grid-template-columns: 1fr;
+    }
+    .testimonial-grid-row {
+        max-width: 66%;
+        margin: auto;
+    }
+}
+@media (max-width:768px){
+    .testimonial-container{
+        padding: 0 16px;
+        gap: 24px;
+    }
+
+    .testimonial-grid-row{
+        max-width: 100%;
+        padding: 32px;
+    }
+
+    #testimonials {
+        padding: 64px 0px;
+        gap: 24px;
+    }
+
+    .testimonial-head p{
+        font-size: 18px;
+    }
+}

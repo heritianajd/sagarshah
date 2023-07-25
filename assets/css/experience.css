@@ -91,14 +91,10 @@
     #experience{
         padding: 96px 0px;
     }
-
-    .exprience-container{
-        max-width: 88%;
-    }
 }
 @media (max-width:1024px) {
     .exprience-container {
-        max-width: 98%;
+        max-width: 94%;
     }
 }
 @media (max-width:768px) {
