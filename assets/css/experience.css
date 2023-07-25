@@ -81,3 +81,56 @@
     width: 102px;
     height: 28px;   
 }
+
+@media (max-width:1366px) {
+    #experience{
+        padding: 96px 40px;
+    }
+}
+@media (max-width:1250px) {
+    #experience{
+        padding: 96px 0px;
+    }
+
+    .exprience-container{
+        max-width: 88%;
+    }
+}
+@media (max-width:1024px) {
+    .exprience-container {
+        max-width: 98%;
+    }
+}
+@media (max-width:768px) {
+    #experience{
+        padding: 64px 0px;
+    }
+
+    .exprience-container {
+        max-width: 100%;
+        padding: 0 16px;
+        gap: 24px;
+    }
+
+    .experience-upwork{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .experience-head{
+        margin-bottom: 24px;
+    }
+    .logo-upwork{
+        width: 100%;
+    }
+    .experience-upwork-text{
+        width: 100%;
+    }
+    .experience-duration-upwork{
+        width: 100%;
+        text-align: start;
+    }
+
+    .experience-head p{
+        font-size: 18px;
+    }
+}
