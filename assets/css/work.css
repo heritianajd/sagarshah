@@ -171,4 +171,12 @@
     .work-row-rigth{
         border-radius: 0 0 12px 12px;
     }
+
+    .work-photos img{
+        transition: none;
+    }
+
+    .work-photos img:hover{
+        transform: none;
+    }
 }

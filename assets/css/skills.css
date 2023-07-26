@@ -99,4 +99,12 @@
     .skills-grid-technologie p{
         font-size: 16px;
     }
+
+    .skills-grid-technologie img{
+        transition: none;
+        transform: none;
+    }
+    .skills-grid-technologie img:hover{
+        transform: none;
+    }
 }
